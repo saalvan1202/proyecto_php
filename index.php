@@ -44,8 +44,16 @@ curl_close($ch);
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        width: 70vh;
+        width: 80vh;
     }
+    @media(max-width:800px){
+        hgroup{
+            justify-content: start;
+            align-items: start;
+            width: 50vh;
+        }
+    }
+
 </style>
 </head>
 <body>
