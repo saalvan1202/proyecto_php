@@ -78,9 +78,10 @@ curl_close($ch);
     h2{
         font-size: 25px;
     }
-    @media(max-width:800px){
+    @media(max-width:850px){
         hgroup{
             margin: 0 20px 0 20px;
+            padding: 0 20px 0 20px;
             justify-content: start;
             align-items: start;
             width: 50vh;
@@ -91,6 +92,15 @@ curl_close($ch);
         justify-content: center;
         align-items: center;
     }
+  img{
+    padding: 0 20px 0 20px;
+  }
+    }
+    @media(max-width:450px){
+        hgroup{
+        margin: 0 20px 0 20px;
+        padding: 0 20px 0 20px;
+        }
     }
 
 </style>
@@ -101,20 +111,20 @@ curl_close($ch);
     <h2> <?= $data["title"];?> </h2>
     <h3>
         <?=
-        "Se entrena en ". $data["days_until"]." días";
+        "Se entrena en ".$data["days_until"]." días";
         ?>
     </h3>
     <p><?="Fecha de estreno: ".$data["release_date"]?></p>
     <p><?=
     "Descripción: ".$data["overview"]
     ?></p>
-</hgroup>
+</hgroup>   
 </body>
 <footer>
 <section>
 <a href="https://www.facebook.com/ShandeAlvan2004" target="_blank"><i class="fa-brands fa-facebook"></i></a>
 <a href="https://www.instagram.com/alvan_saa/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
 <a href="https://github.com/saalvan1202/" target="_blank"><i class="fa-brands fa-github"></i></a><br/></section>
-<h2>Shande Andres</h2><br/>       
+<h2>Shande Alvan</h2><br/>       
 </footer>
 </html>
