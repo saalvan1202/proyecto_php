@@ -92,9 +92,7 @@ curl_close($ch);
         justify-content: center;
         align-items: center;
     }
-  img{
-    padding: 0 20px 0 20px;
-  }
+  
     }
     @media(max-width:450px){
         hgroup{
