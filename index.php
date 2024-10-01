@@ -48,6 +48,7 @@ curl_close($ch);
     }
     @media(max-width:800px){
         hgroup{
+            margin: 0 20px 0 20px;
             justify-content: start;
             align-items: start;
             width: 50vh;
